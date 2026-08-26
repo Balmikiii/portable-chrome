@@ -1,0 +1,31 @@
+# Chrome / Chromium profile data
+ChromeProfile/
+
+# Browser cache / temporary data
+Cache/
+Temp/
+tmp/
+
+# Logs
+Logs/
+*.log
+
+# Chrome lock/runtime files
+Singleton*
+Lockfile
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
